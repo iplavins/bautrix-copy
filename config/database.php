@@ -1,0 +1,1 @@
+/* DB pieslēguma dati (host, user, pass, name)*/

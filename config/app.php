@@ -1,0 +1,1 @@
+/* Lietotnes konstantes (BASE_URL, SECRET_KEY)*/
