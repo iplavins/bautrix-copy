@@ -1,1 +1,1 @@
- # Galvenā loģika (navigācija, UI)
+ // Galvenā loģika (navigācija, UI)

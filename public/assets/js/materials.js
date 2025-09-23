@@ -1,1 +1,1 @@
-# Interaktivitāte materiālu sadaļā
+// Interaktivitāte materiālu sadaļā
