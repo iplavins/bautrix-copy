@@ -1,0 +1,1 @@
+ # Galvenā loģika (navigācija, UI)
