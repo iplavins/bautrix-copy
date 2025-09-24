@@ -1,0 +1,1 @@
+-- Galvenā DB shēma (tabulas)
