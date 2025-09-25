@@ -171,7 +171,7 @@
 <div id="tab-content">
     <!-- Kreisais baneris -->
     <div class="left-banner">
-        <?php include "left-banner.php"; ?>
+        <?php include __DIR__ . "/../include/left-banner.php"; ?>
     </div>
 
     <!-- Galvenais saturs -->
@@ -195,10 +195,10 @@
 
     <!-- Labais baneris -->
     <div class="right-banner">
-        <?php include "right-banner.php"; ?>
+        <?php include __DIR__ . "/../include/right-banner.php"; ?>
     </div>
 </div>
-    <?php include 'data_ekran_test_footer.html'; ?>
+    <?php include __DIR__ . "/../include/data_ekran_test_footer.php"; ?>
     <!--  Script tiek piesaistīts failam -->
 <script>
 
