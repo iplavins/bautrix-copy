@@ -176,7 +176,7 @@
 
     <!-- Galvenais saturs -->
     <div class="main-content">
-        <div data-content="sakums"><?php include "sakums-content.html"; ?></div>
+        <div data-content="sakums"><?php include  __DIR__ . "/../include/sakums-content.html"; ?></div>
         <div data-content="pieteiksana" style="display:none;">Šeit ir Pieteikšanās datu bāzē saturs.</div>
         <div data-content="informativa" style="display:none;">Šeit ir Informatīvā izdevuma saturs.</div>
         <div data-content="kalkulatori" style="display:none;">Šeit ir Izmaksu un kalkulatoru saturs.</div>
