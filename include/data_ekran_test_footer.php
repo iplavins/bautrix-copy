@@ -162,7 +162,7 @@ flex: 1; /* aizņem visu pieejamo vietu starp header (ja ir) un footer */
 
         <!-- Analytics / cookies -->
         <div id="plone-analytics">
-            <script type="text/javascript" charset="UTF-8" data-cs-lang="lv" src="//cdn.cookie-script.com/s/dd8af4daa2e8206788cb1ab2e766404b.js"></script>
+            <script type="text/javascript" charset="UTF-8" data-cs-lang="lv" src="//cdn.cookie-script.com/s/6d35987ea62500c84e2ff15badd3f815.js" defer ></script>
         </div>
 
         <!-- Autortiesības -->
