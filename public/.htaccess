@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Privāta testēšanas lapa"
+AuthUserFile /var/www/bautrix.info/.htpasswd
+Require valid-user
