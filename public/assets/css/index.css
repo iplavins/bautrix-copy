@@ -1,25 +1,3 @@
-.main-content > div[data-content] {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* nedaudz lielāki bloki */
-  gap: 1.5rem; /* lielāks attālums starp blokiem */
-  padding: 1rem; /* iekšējais attālums ap visiem blokiem */
-}
-
-.main-content > div[data-content] > * {
-  background-color: #ffffff; /* tīrāks fons */
-  padding: 1.2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.08); /* smalkāka ēna */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start; /* sakārtot augšpusē saturu */
-  transition: transform 0.2s, box-shadow 0.2s; /* gluda hover animācija */
-}
-
-.main-content > div[data-content] > *:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 8px 16px rgba(0,0,0,0.12);
-}
 
 
 .pill-nav-custom {
