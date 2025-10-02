@@ -1,4 +1,41 @@
+.nav-item.dropdown > .nav-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* nodala tekstu no bultiņas */
+    white-space: normal; /* atļauj aplauzties vairākās rindās */
+    text-align: center; /* centrē tekstu */
+    padding: 0.5rem 1rem;
+    line-height: 1.2; /* konsekvents augstums */
+    min-height: 3rem; /* vienmērīgs augstums, ja teksti īsi */
+}
+.dropdown-menu-custom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    min-width: 200px;
+    max-width: 300px;
+}
 
+.dropdown-item-custom {
+    display: block;
+    width: 100%;
+    white-space: normal;       /* ļauj teksta aplauzties */
+    overflow-wrap: anywhere;   /* sadala garus vārdus */
+    text-align: left;
+    padding: 0.4rem 1rem;
+    font-size: 0.95rem;
+}
+@media (max-width: 768px) {
+    .nav-item.dropdown > .nav-link {
+        font-size: 0.9rem;
+        min-height: 2.5rem; /* mazāks augstums mobilajiem */
+    }
+
+    .dropdown-menu-custom {
+        min-width: 160px;
+        max-width: 90vw;
+    }
+}
 
 .pill-nav-custom {
         --bs-nav-link-color: var(--bs-white);
